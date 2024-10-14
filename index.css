@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+.input-section {
+    margin-bottom: 20px;
+}
+input, button {
+    padding: 10px;
+    margin: 5px;
+}
+.bar-graph {
+    display: flex;
+    flex-direction: column;
+}
+.bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.bar span {
+    margin-right: 10px;
+}
+.price-bar {
+    background-color: #4CAF50;
+    height: 25px;
+    margin-left: 10px;
+}
+.rating-bar {
+    background-color: #2196F3;
+    height: 25px;
+    margin-left: 10px;
+}
